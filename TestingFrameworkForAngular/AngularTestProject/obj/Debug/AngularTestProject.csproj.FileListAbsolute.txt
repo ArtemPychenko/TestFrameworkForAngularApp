@@ -1,0 +1,10 @@
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\AngularTestProject.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\AngularTestProject.pdb
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\WebDriver.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\WebDriver.xml
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\obj\Debug\AngularTestProject.csprojResolveAssemblyReference.cache
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\obj\Debug\AngularTestProject.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\obj\Debug\AngularTestProject.pdb
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\nunit.framework.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\nunit.framework.xml

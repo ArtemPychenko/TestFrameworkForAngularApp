@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DNAutoFramework>
+  <RunSettings>
+    <AUT>https://namoscustomer360-qa.azurewebsites.net/</AUT>
+    <!-- Possible flag for Crome, Firefox, IE -->
+    <Browser>Chrome</Browser>
+    <!-- Possible flag Smoke, Regression, Unit -->
+    <TestType>E2ETest</TestType>
+    <!-- Possible flag Y, N -->
+    <IsLog>Y</IsLog>
+    <LogPath>C:\\Users\\Artem Pychenko\\Desktop\\logs</LogPath>
+    <BuildName>DemoBuild</BuildName>
+    <!-- Possible flag Y, N -->
+    <IsReport>N</IsReport>
+    <UserName>TestTeam</UserName>
+    <!-- Possible flag Selenium, Specflow -->
+    <Technology>Selenium</Technology>
+    <DbCredentials></DbCredentials>
+  </RunSettings>
+</DNAutoFramework>
