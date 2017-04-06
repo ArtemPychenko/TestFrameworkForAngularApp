@@ -8,3 +8,5 @@ C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\obj\Debug\An
 C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\obj\Debug\AngularTestProject.pdb
 C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\nunit.framework.dll
 C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\nunit.framework.xml
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\WebDriver.Support.dll
+C:\Work\AutoFramework\TestingFrameworkForAngular\AngularTestProject\bin\Debug\WebDriver.Support.xml
