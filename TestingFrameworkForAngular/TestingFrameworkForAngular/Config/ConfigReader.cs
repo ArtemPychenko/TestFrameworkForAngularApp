@@ -41,7 +41,7 @@ namespace TestingFrameworkForAngular.Config
             Settings.IsReporting = isreport.Value.ToString();
             Settings.BuildName = buildname.Value.ToString();
             Settings.LogPath = logpath.Value.ToString();
-            Settings.AppPromoConnectionString = appConnection.Value.ToString();
+            Settings.AppConnectionString = appConnection.Value.ToString();
             Settings.BrowserType = (BrowserType)Enum.Parse(typeof(BrowserType), browsertype.Value.ToString());
         }
     }

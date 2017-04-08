@@ -71,9 +71,8 @@ namespace TestingFrameworkForAngular.Helpers
                                select colData.colValue).SingleOrDefault();
                 return data.ToString();
             }
-            catch (Exception e)
+            catch (Exception)
             {
-
                 return null;
             }
         }
