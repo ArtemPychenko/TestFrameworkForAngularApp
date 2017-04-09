@@ -33,7 +33,7 @@ namespace TestingFrameworkForAngular.Base
                     break;
                 case BrowserType.Chrome:
                     DriverContext.Driver = new ChromeDriver(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(
-                                                        AppDomain.CurrentDomain.BaseDirectory)))) + "\\DNAutoFramework\\driver");
+                                                        AppDomain.CurrentDomain.BaseDirectory)))) + @"\TestingFrameworkForAngular\Drivers");
                     DriverContext.NgDriver = new Protractor.NgWebDriver(DriverContext.Driver);
                     DriverContext.Browser = new Browser(DriverContext.NgDriver);
                     break;
@@ -46,7 +46,7 @@ namespace TestingFrameworkForAngular.Base
             OpenBrowser(Settings.BrowserType);
 
             //Set implicit wait
-            DriverContext.NgDriver.Manage().Timeouts().AsynchronousJavaScript = TimeSpan.FromSeconds(60);
+            DriverContext.NgDriver.Manage().Timeouts().AsynchronousJavaScript = TimeSpan.FromSeconds(10);
 
             DriverContext.Browser.GoToUrl(Settings.AUT);
         }

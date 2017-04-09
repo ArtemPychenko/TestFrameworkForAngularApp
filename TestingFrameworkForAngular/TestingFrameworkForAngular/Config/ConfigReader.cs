@@ -19,7 +19,7 @@ namespace TestingFrameworkForAngular.Config
             XPathItem browsertype;
 
             string strFileName = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(
-                                                        AppDomain.CurrentDomain.BaseDirectory)))) + "\\DNAutoFramework\\Config\\GlobalConfig.xml";
+                                                        AppDomain.CurrentDomain.BaseDirectory)))) + @"\TestingFrameworkForAngular\Config\GlobalConfig.xml";
             FileStream stream = new FileStream(strFileName, FileMode.Open);
             XPathDocument document = new XPathDocument(stream);
             XPathNavigator navigator = document.CreateNavigator();

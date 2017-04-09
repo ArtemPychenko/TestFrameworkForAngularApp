@@ -1,4 +1,5 @@
 ﻿using Protractor;
+using System;
 
 namespace TestingFrameworkForAngular.Base
 {
@@ -15,7 +16,15 @@ namespace TestingFrameworkForAngular.Base
 
         public void GoToUrl(string url)
         {
-            DriverContext.NgDriver.Url = url;
+            try
+            {
+                DriverContext.NgDriver.Url = url;
+            }
+            catch (Exception)
+            {
+                DriverContext.Driver.Url = url;
+            }
+            
         }
     }
 

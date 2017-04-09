@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingFrameworkForAngular", "TestingFrameworkForAngular\TestingFrameworkForAngular.csproj", "{A0712F04-D2F7-449B-AF11-355036D799DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTestProject", "AngularTestProject\AngularTestProject.csproj", "{10A5C2C2-CDBB-4FB0-8E44-71992B879C5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalAngularTestProject", "AngularTestProject\FinalAngularTestProject.csproj", "{10A5C2C2-CDBB-4FB0-8E44-71992B879C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTestProject", "SimpleTestProject\SimpleTestProject.csproj", "{CDBD0609-D674-453E-8E6F-AF1C2C3762F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestWithPO", "SeleniumTestWithPO\SeleniumTestWithPO.csproj", "{FC73F6D3-0B65-4BBD-A73A-830747AFAEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTestWithPOandSpecflow", "SimpleTestWithPOandSpecflow\SimpleTestWithPOandSpecflow.csproj", "{5DF79C0B-2127-4FE0-A8BD-4623E6907BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{10A5C2C2-CDBB-4FB0-8E44-71992B879C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A5C2C2-CDBB-4FB0-8E44-71992B879C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A5C2C2-CDBB-4FB0-8E44-71992B879C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBD0609-D674-453E-8E6F-AF1C2C3762F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBD0609-D674-453E-8E6F-AF1C2C3762F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBD0609-D674-453E-8E6F-AF1C2C3762F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBD0609-D674-453E-8E6F-AF1C2C3762F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC73F6D3-0B65-4BBD-A73A-830747AFAEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC73F6D3-0B65-4BBD-A73A-830747AFAEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC73F6D3-0B65-4BBD-A73A-830747AFAEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC73F6D3-0B65-4BBD-A73A-830747AFAEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF79C0B-2127-4FE0-A8BD-4623E6907BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF79C0B-2127-4FE0-A8BD-4623E6907BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF79C0B-2127-4FE0-A8BD-4623E6907BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF79C0B-2127-4FE0-A8BD-4623E6907BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

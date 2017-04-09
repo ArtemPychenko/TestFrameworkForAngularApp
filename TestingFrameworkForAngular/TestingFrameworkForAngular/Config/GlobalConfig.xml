@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DNAutoFramework>
   <RunSettings>
-    <AUT>https://namoscustomer360-qa.azurewebsites.net/</AUT>
+    <AUT>https://angular.io/</AUT>
     <!-- Possible flag for Crome, Firefox, IE -->
     <Browser>Chrome</Browser>
     <!-- Possible flag Smoke, Regression, Unit -->
